@@ -1,0 +1,19 @@
+.upcomingMovieHeadingDiv{
+    background-color: #ff9999;
+    text-align: center;
+    padding: 8px;
+    font-size: 1rem;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow:hidden;
+}
+.left{
+    flex-grow: 19;
+    margin: 16px;
+}
+.right{
+    flex-grow: 6;
+    margin: 16px;
+}
