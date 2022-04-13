@@ -10,10 +10,13 @@
     overflow:hidden;
 }
 .left{
-    flex-grow: 19;
+    width: 76%;
     margin: 16px;
 }
 .right{
-    flex-grow: 6;
+    width: 24%;
     margin: 16px;
+}
+.loginBtn{
+    display: none;
 }

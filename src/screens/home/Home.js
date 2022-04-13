@@ -8,7 +8,6 @@ import MovieFilter, { userSelection } from "./MovieFilter";
 import genres from "./genre";
 import artists from "./artists";
 
-
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -20,6 +19,7 @@ class Home extends Component {
         };
     }
 
+// -------- Handler Function for filter------//
 
     filterHandler = () => {
         if (
@@ -57,10 +57,11 @@ class Home extends Component {
         }
     };
 
+// -------Rendering Components of Home Page-----//
     render() {
         return (
             <div>
-                <Header />
+                <Header headerBtnType="loginBtn"  buttonName="LOGIN"/>
                 <div className="upcomingMovieHeadingDiv">
                     <span className="upcomingMovieHeading">Upcoming Movies</span>
                 </div>

@@ -47,6 +47,8 @@ const MenuProps = {
 
 
 //--------------------//
+
+
 export let userSelection = {
     name: "",
     releaseDateStart: "",
@@ -79,7 +81,7 @@ export default function MovieFilter(props) {
 
 
     return (
-        <Card   >
+        <Card style={{width: '300px'}}  >
             <CardContent >
                 <Typography component="div" className={classes.root} style={{ color: "theme.palette.primary.light" }}  >
                     FIND MOVIES BY:
