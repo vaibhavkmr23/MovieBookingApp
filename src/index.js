@@ -7,11 +7,13 @@ import Home from './screens/home/Home';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Details from './screens/details/Details';
 
+const basename = "/MovieBookingApp";
+
 ReactDOM.render(
   // <React.StrictMode>
   <div>
     {/* <Home /> */}
-    <Router>
+    <Router basename='/MovieBookingApp'>
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/details' element={<Details />} />
