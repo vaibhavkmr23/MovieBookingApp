@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MovieBookingApp/static/css/main.3505428b.css",
+    "main.js": "/MovieBookingApp/static/js/main.d307c221.js",
+    "static/media/logo.svg": "/MovieBookingApp/static/media/logo.84389639eb24b953731c7f079b72addb.svg",
+    "index.html": "/MovieBookingApp/index.html",
+    "main.3505428b.css.map": "/MovieBookingApp/static/css/main.3505428b.css.map",
+    "main.d307c221.js.map": "/MovieBookingApp/static/js/main.d307c221.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3505428b.css",
+    "static/js/main.d307c221.js"
+  ]
+}
